@@ -1,3 +1,15 @@
+Python3 adaptation for Adafruit Motor Hat Library
+=======================
+
+Don't forgot to install dependencies for python3 with :
+
+```
+sudo pip3 install RPi.GPIO smbus-cffi Adafruit-GPIO Adafruit-MotorHAT
+```
+
+If you can't import module named 'Adafruit_PWM_Servo_Driver', just copy all
+files in Adafruit_MotorHAT folder in your current folder.
+
 Adafruit Python Library for DC + Stepper Motor HAT
 =======================
 
